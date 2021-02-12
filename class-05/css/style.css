@@ -1,0 +1,32 @@
+body{
+    height: 1200px;
+}
+.container{
+    width: 300px;
+    height:300px;
+    border: solid 2px black;
+    position: relative;
+}
+
+.items{
+    width:75px;
+    height: 75px;
+    display: inline-block;
+}
+.relative{
+    background-color: brown;
+    position: relative;
+}
+.absolute{
+    background-color: chartreuse;
+    position: absolute;
+    top:0;
+    right: 10px;
+}
+
+.fixed{
+    background-color: darkblue;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
