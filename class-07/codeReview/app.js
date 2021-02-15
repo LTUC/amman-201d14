@@ -114,3 +114,5 @@ function randomGenrator(min, max) {
 //   function footerRow(){
 //    // last row 
 //   }
+
+
