@@ -1,0 +1,41 @@
+* {
+    box-sizing:border-box;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.row :first-child{
+    background-color: #222831;
+
+}
+.row :nth-child(2){
+    background-color: #393e46;
+}
+
+.row :nth-child(3){
+    background-color: #ffd369;
+}
+.row :nth-child(4){
+    background-color: #ffd369;
+}
+.row{
+    width:100%;
+}
+.column{
+    float: left;
+    height:80vh;
+    width: 25%;
+    padding: 25px;
+}
+
+footer{
+    text-align: center;
+   font-family: 'Big Shoulders Inline Display', cursive;
+}
+
