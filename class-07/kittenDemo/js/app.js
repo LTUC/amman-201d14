@@ -3,6 +3,7 @@ function randomValue(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
 }
                                         //true
+let arr = [];
 function Kitten(kittenName,likes,isGoodWithDogs,isGoodWithKids,isGoodwithOtherCats){
 this.name = kittenName;
 this.age = 0;
@@ -10,7 +11,9 @@ this.likes = likes;
 this.isGoodWithDogs = isGoodWithDogs;
 this.isGoodWithKids = isGoodWithKids;
 this.isGoodwithOtherCats = isGoodwithOtherCats;
+arr.push(this);
 }
+console.log(arr);
 Kitten.prototype.updateAge = function(){
     this.age = randomValue(3,12) + ' months';
 }
